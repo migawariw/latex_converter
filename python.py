@@ -1,11 +1,11 @@
 import requests
 
 # GitHubリポジトリの情報
-username = "your_github_username"
-repository = "your_repository_name"
+username = "migawariw"
+repository = "latex_converter"
 branch = "main"  # or whichever branch you want to use
 path = "path/to/save/latex/images"  # the directory in the repo where the images will be saved
-token = "your_github_personal_access_token"  # this token must have repo access
+token = "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"  # this token must have repo access
 
 # LaTeX数式を画像に変換するAPIのエンドポイント
 api_endpoint = "https://latex.codecogs.com/png.latex"
